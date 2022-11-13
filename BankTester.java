@@ -5,12 +5,12 @@ remaining balance. Also print the expected result.
 
 public class BankTester {
     public static void main(String[] args){
-        Bank account = new Bank();
-        account.deposit(1000);
-        account.withdraw(500);
-        account.withdraw(400);
+        BankAccount BC = new BankAccount();
+        BC.deposit(1000);
+        BC.withdraw(500);
+        BC.withdraw(400);
 
-        System.out.println(account.getBalance());
+        System.out.println(BC.getBalance());
         System.out.println(" expected result : 100$ ");
 
     }
