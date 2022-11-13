@@ -10,7 +10,7 @@ prints the actual and expected balance.
 
 public class BankTesterinterest {
     public static void main(String[] args) {
-        Bank momsSavings = new Bank(1000);
+        BankAccount momsSavings = new BankAccount(1000);
         momsSavings.addInterest(10);
 
         System.out.println("the expected :");
