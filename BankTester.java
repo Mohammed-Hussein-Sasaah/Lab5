@@ -11,5 +11,7 @@ public class BankTester {
         account.withdraw(400);
 
         System.out.println(account.getBalance());
+        System.out.println(" expected result : 100$ ");
+
     }
 }
